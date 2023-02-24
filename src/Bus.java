@@ -6,7 +6,6 @@ public class Bus extends Model{
         super.status="운행";
     }
 
-
     public void check_oil(Model m){
         if(gas_amount<10){
             System.out.println("주유가 필요합니다");
